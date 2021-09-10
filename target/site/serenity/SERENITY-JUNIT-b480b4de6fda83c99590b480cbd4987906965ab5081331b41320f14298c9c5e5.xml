@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Academy choucair" skipped="0" tests="1" time="34.44" timestamp="2021-09-10 09:51:09"><testcase name="Scenario"><error message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;yui_3_17_2_1_1631285307115_28&quot;]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id="yui_3_17_2_1_1631285307115_28"]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id="yui_3_17_2_1_1631285307115_28"]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: driver.version: unknown&#13;
+co.com.proyectobase.stepdefinitions.choucairStepDefinitions.heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(choucairStepDefinitions.java:35)&#13;
+✽.he finds the course called resources Recursos Automatizacion Bancolombia(src/test/resources/features/academyChoucair.feature:10)&#13;
+</system-err></testcase></testsuite>

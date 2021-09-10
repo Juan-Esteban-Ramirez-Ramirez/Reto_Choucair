@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Academy choucair" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-09-10T14:51:10" hostname="DESKTOP-9DVSJ80" time="33.917">
+  <properties/>
+  <testcase name="Scenario: Search for a automtion course" classname="Academy choucair" time="33.917">
+    <failure message="java.lang.AssertionError: Expected condition failed: waiting for By.xpath: //*[@id=&quot;yui_3_17_2_1_1631285307115_28&quot;]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">java.lang.AssertionError: Expected condition failed: waiting for By.xpath: //*[@id=&quot;yui_3_17_2_1_1631285307115_28&quot;]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'
+Driver info: driver.version: unknown
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:187)
+	at co.com.proyectobase.stepdefinitions.choucairStepDefinitions.heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(choucairStepDefinitions.java:35)
+	at ✽.he finds the course called resources Recursos Automatizacion Bancolombia(src/test/resources/features/academyChoucair.feature:10)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 10, 2021 9:51:10 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 5382
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+sep 10, 2021 9:51:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Scenario
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Then questio should be 'Workshop de Automatización'
+[Test worker] ERROR net.serenitybdd.core.Serenity - Expected condition failed: waiting for By.xpath: //*[@id="yui_3_17_2_1_1631285307115_28"]/div/div[1]/h4/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'DESKTOP-9DVSJ80', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_292'Driver info: driver.version: unknown
+]]></system-err>
+</testsuite>
